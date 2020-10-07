@@ -1,0 +1,574 @@
+
+body{
+  height: 2900px;
+  /* background-color: #202020; */
+}
+
+p{
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.tbox p{
+  font-size: 27px;
+  margin-right: 50px;
+  color: gold;
+
+
+}
+
+#trnd{
+  color: gray;
+  margin-top: 50px;
+  margin-right: 40px;
+  font size:10px;
+}
+
+#trnd:hover{
+  color: gold;
+}
+
+.tbox .closebtn {
+  /* position: relative; */
+  color: gold;
+
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 140px;
+  cursor: pointer;
+  /* margin-left: 250px; */
+}
+.tbox .closebtn:hover{
+  color: #0088a9;
+}
+
+.mbox .openbtn {
+  font-size:26px;
+  cursor:pointer;
+  color:gold;
+
+  margin-left: 20px;
+  margin-bottom: 5px;
+  /* margin-left: 80px; */
+}
+
+
+@media only screen and (max-width: 1026px) {
+    nav{
+      width:900px;
+    }
+    #tbox1 {
+        /* display: none; */
+    }
+    #mbox1 {
+      max-width: 100%;
+
+    }
+
+    #card1{
+      max-width: 300px;
+      /* float: left; */
+    }
+}
+
+
+
+.mbox{
+
+  background-color:#101010;
+  /* #0f0e0e; */
+  width: 1498px;
+  margin-right: 30px;
+  height: 2000px;
+
+  /* border-bottom-right-radius: 20px; */
+
+  /* margin-right: 10px; */
+  /* width:200px; */
+}
+
+.tbox{
+  /* border-radius: 20px; */
+  /* border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; */
+  /* margin-right: 20px; */
+  /* display: none; */
+  height: 2000px;
+  text-align: center;
+  width: 0;
+  background-color: black;
+  border-right: 1px solid gold;
+  overflow-x: hidden;
+  transition: 0.5s;
+
+}
+
+.class{
+  color:Gray;
+  margin-top: 60px;
+  margin-right: 15px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+.class h3:hover{
+  cursor: pointer;
+  color: gold;
+}
+
+.mbox { grid-area: ons; }
+.tbox { grid-area: tws; }
+
+
+.movie-container {
+
+  margin-top: 150px;
+  display: grid;
+  grid-template-areas: 'tws ons';
+  /* grid-gap: 10px; */
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+
+
+.botnav {
+  /* border-top-right-radius: 20px; */
+
+  overflow: hidden;
+  border-bottom: 0.5px solid gold;
+  background-color: black;
+  padding: 15px;
+
+  /* border-radius: 20px; */
+  margin-top: 0px;
+  /* margin-right:  520px; */
+}
+
+/* Style the links inside the navigation bar */
+.botnav a {
+  float: left;
+  /* margin-right: 200px; */
+  display: block;
+  color: gold;
+  text-align: center;
+  padding: 14px;
+
+  margin-right: 35px;
+  /* text-decoration: none; */
+  border-radius: 20px;
+  font-size: 16px;
+}
+.sds{
+  margin-top: 9px;
+}
+.sds1{
+  margin-top: 9px;
+}
+
+
+.botnav a:hover {
+  color: #0088a9;
+
+}
+
+
+
+.botnav input[type=text] {
+  float: right;
+  width: 300px;
+  padding: 9px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 15px;
+  margin-right: 26px;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+.card1{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 50px;
+
+  margin-left: 120px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card2{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 50px;
+  /* margin-right: 10px; */
+  /* margin-left: 80px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card3{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 50px;
+  /* margin-left: 80px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card4{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 50px;
+  /* margin-left: 80px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card1:hover{
+opacity: 1;
+}
+.card2:hover{
+opacity: 1;
+}
+.card3:hover{
+opacity: 1;
+}
+.card4:hover{
+opacity: 1;
+}
+
+
+
+.card5{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+margin-left: 120px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.card6{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+
+  /* margin-left: 360px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.card7{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+
+  /* margin-left: 360px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.card8{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+
+  /* margin-left: 360px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+
+.card5:hover{
+opacity: 1;
+}
+.card6:hover{
+opacity: 1;
+}
+.card7:hover{
+opacity: 1;
+}
+.card8:hover{
+opacity: 1;
+}
+
+.card9{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card10{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card11{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card12{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.card9:hover{
+opacity: 1;
+}
+.card10:hover{
+opacity: 1;
+}
+.card11:hover{
+opacity: 1;
+}
+.card12:hover{
+opacity: 1;
+}
+
+.card13{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card14{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card15{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card16{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.card13:hover{
+opacity: 1;
+}
+.card14:hover{
+opacity: 1;
+}
+.card15:hover{
+opacity: 1;
+}
+.card16:hover{
+opacity: 1;
+}
+
+
+.card17{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+margin-left: 120px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card18{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.card19{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.card20{
+  width: 240px;
+  height: 390px;
+  background-color: black;
+  margin-top: 20px;
+
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.card17:hover{
+opacity: 1;
+}
+.card18:hover{
+opacity: 1;
+}
+.card19:hover{
+opacity: 1;
+}
+.card20:hover{
+opacity: 1;
+}
+
+.onem{
+  border-radius:20px;
+  margin-left:10px;
+
+  margin-top: 10px;
+  width:220px;
+  height:300px;
+}
+
+.twom{
+  border-radius:20px;
+  margin-left:10px;
+
+  margin-top: 10px;
+  width:220px;
+  height:300px;
+
+}
+
+.threem{
+  border-radius:20px;
+  margin-left:10px;
+
+  margin-top: 10px;
+  width:220px;
+  height:300px;
+
+}
+.fourm{
+  border-radius:20px;
+  margin-left:10px;
+
+  margin-top: 10px;
+  width:220px;
+  height:300px;
+
+}
+
+
+.card1 { grid-area:one; }
+.card2 { grid-area:two; }
+.card3 { grid-area:three; }
+.card4 { grid-area:four; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'one two three four......';
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+
+.card5 { grid-area:five; }
+.card6 { grid-area:six; }
+.card7 { grid-area:seven; }
+.card8 { grid-area:eight; }
+
+.grid-2 {
+  display: grid;
+  grid-template-areas: 'five six seven eight......' ;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+
+.card9 { grid-area:nine; }
+.card10 { grid-area:ten; }
+.card11 { grid-area:eleven; }
+.card12 { grid-area:twelve; }
+
+.grid-3 {
+  display: grid;
+  grid-template-areas: 'nine ten eleven twelve......' ;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.card13 { grid-area:thirt; }
+.card14 { grid-area:forth; }
+.card15 { grid-area:fifth; }
+.card16 { grid-area:sixth; }
+
+.grid-4 {
+  display: grid;
+  grid-template-areas: 'thirt forth fifth sixth......' ;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.card17 { grid-area:svnth; }
+.card18 { grid-area:eight; }
+.card19 { grid-area:ninth; }
+.card20 { grid-area:tenth; }
+
+
+.grid-5 {
+  display: grid;
+  grid-template-areas: 'svnth eight ninth tenth......';
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+#pg1{
+
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+#pg2{
+  margin-top: 50px;
+}

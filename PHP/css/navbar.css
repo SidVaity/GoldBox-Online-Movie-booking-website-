@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+
+body{
+  box-sizing: content-box;
+
+  }
+
+li,a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+.logo{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    border:none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    /* transition: 0.3s; */
+}
+
+
+
+.nav1{
+  background-color: #24252A;
+  height: 80px;
+
+  padding: 25px;
+  /* order:1; */
+}
+
+.top-right{
+  float: right;
+  padding: 0;
+}
+
+.top-left{
+  float: left;
+  padding: 0;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li:nth-child(1){
+  font-family: 'Recursive', sans-serif;
+  font-size: 20px;
+}
+
+.nav__links li a {
+
+  color: rgb(255,215,0);
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+
+button {
+padding: 5px 15px;
+font-size: 16px;
+/* background-color: #24252A; */
+border:none;
+border-radius: 70px;
+cursor: pointer;
+transition: all 0.0s ease 0s;
+}
+
+button:hover{
+  background-color:#24252A;
+}

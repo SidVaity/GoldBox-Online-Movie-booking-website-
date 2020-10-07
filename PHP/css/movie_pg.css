@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+body{
+  background-color: gray;
+  color: white;
+  background-size: cover;
+  /* background-position: center; */
+
+}
+
+iframe{
+
+margin-left: 35px;
+margin-top: 40px;
+}
+
+.box{
+  width:1090px;
+  height:1475px;
+  border:1px solid #000;
+  margin-left: 205px;
+  background-color: black;
+  border-radius: 20px;
+
+}
+
+img{
+  position: relative;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  margin-top: 140px;
+
+}
+
+h1{
+  position: relative;
+ margin-left: 100px;
+  margin-top: 140px;
+  /* margin-bottom: 440px; */
+  color: gold;
+}
+h4{
+  margin-bottom: 40px;
+  margin-left: 50px;
+  font-family: 'Merriweather', serif;
+  display: flex;
+  /* margin-top: 400px; */
+  /* margin-right: 300px; */
+}
+
+
+
+.lh { grid-area: poster; }
+.lh1 { grid-area: Title; }
+.lh2 { grid-area: Descri; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'poster Title Title'
+                        'poster Descri Descri'
+                        'poster Descri Descri';
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+button {
+padding: 20px 35px;
+font-size: 19px;
+float: right;
+margin-top: 190px;
+margin-right: 190px;
+background-color: gold;
+border:none;
+border-radius: 20px;
+cursor: pointer;
+transition: all 0.0s ease 0s;
+}
+
+button:hover{
+  opacity: 0.9;
+  /* background-color: rgba(255,0,0, 0.5); */
+}

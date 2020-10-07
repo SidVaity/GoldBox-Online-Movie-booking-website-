@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+
+*{
+  list-style:none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body{
+  background-color:#282828;
+}
+
+@media only screen and (max-width: 1268px) {
+    body{
+     max-width: 100%;
+    }
+    nav{
+      /* margin-left: 20px; */
+      /* max-width: 1000px; */
+    }
+
+    #botp{
+      font-size: 10px;
+      width: 1190px;
+    }
+
+    #posters{
+      /* margin: auto; */
+      margin-left: 380px;
+      /* max-width: 100%; */
+    }
+
+    #posters-1{
+      display: none;
+    }
+    #posters-2{
+  display: none;
+    }
+}
+
+
+
+
+nav{
+  background-color:#070708;
+  height: 80px;
+  padding: 25px;
+  width: 1498px;
+
+}
+
+li,a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+/* .logo{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    border:none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    /* transition: 0.3s; */
+
+.info-box{
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border-radius: 25px;
+  background-color: black;
+  height: 1300px;
+}
+
+.monimg{
+  /* margin-left: 40px; */
+  /* margin-right: 90px; */
+  margin-top: 80px;
+  /* margin-bottom: 90px; */
+}
+
+.f1b{
+  color: white;
+  font-size: 24px;
+  margin-right: 100px;
+  margin-top: 60px;
+
+  margin-left: 30px;
+}
+
+
+.t1b{
+  color: gold;
+
+  text-align: left;
+  margin-top: 20px;
+
+  /* text-align: justify; */
+  /* margin-right: 110px; */
+  margin-left: 140px;
+
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.t1b { grid-area:t1b; }
+.monimg { grid-area:monimg; }
+.f1b { grid-area:f1b; }
+
+.infob1 {
+  display: grid;
+  grid-template-areas: 't1b monimg'
+                        'f1b monimg';
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  margin-top: 130px;
+}
+
+
+
+.f2b{
+  color: white;
+  font-size: 24px;
+  margin-right: 50px;
+  /* margin-top: 40px; */
+  /* margin-bottom: 20px; */
+  margin-top: 145px;
+  /* margin-left: 230px; */
+}
+
+
+.f22b{
+  color: gold;
+  font-size: 182px;
+  /* margin-right: 100px; */
+  /* margin-top: 20px; */
+  /* margin-bottom: 30px;  */
+  margin-left: 10px;
+}
+
+
+.t2b{
+  color: gold;
+
+  text-align: right;
+  margin-top: 40px;
+  margin-right: 230px;
+
+  /* text-align: justify; */
+  /* margin-right: 110px; */
+  /* margin-right: 40px; */
+
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.f22b { grid-area:f22b; }
+.t2b  { grid-area:t2b; }
+.f2b { grid-area:f2b; }
+
+
+.infob2 {
+  display: grid;
+  grid-template-areas: 't2b t2b t2b'
+                      'f22b f2b f2b'
+                      'f22b f2b f2b'
+                      ;
+
+  /* grid-gap: 10px; */
+  /* background-color: #2196F3; */
+  padding: 10px;
+  margin-top: 50px;
+}
+
+
+.twoimg{
+  /* margin-left: 40px; */
+  /* margin-right: 90px; */
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+.f3b{
+  color: white;
+  font-size: 24px;
+  /* margin-right: 100px; */
+  margin-top: 40px;
+
+  margin-left: 40px;
+}
+
+
+.t3b{
+  color: gold;
+
+  text-align: right;
+  margin-top: 40px;
+  margin-right: 230px;
+
+  /* text-align: justify; */
+  /* margin-right: 110px; */
+  /* margin-right: 40px; */
+
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.t3b { grid-area:t3b; }
+.twoimg { grid-area:twoimg; }
+.f3b { grid-area:f3b; }
+
+.infob3 {
+  display: grid;
+  grid-template-areas: 'twoimg t3b t3b'
+                        'twoimg f3b f3b ';
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  margin-top: 130px;
+}
+
+.top-right{
+  float: right;
+  padding: 0;
+}
+
+.top-left{
+  float: left;
+  padding: 0;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* .nav__links li:nth-child(1){
+  font-family: 'Recursive', sans-serif;
+  font-size: 20px;
+} */
+
+.nav__links li a {
+
+  color:white;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: white;
+}
+
+
+button {
+padding: 5px 15px;
+font-size: 16px;
+background-color:#070708;
+color:rgb(255,215,0);
+border:none;
+border-radius: 20px;
+cursor: pointer;
+/* transition: all 0.0s ease 0s; */
+}
+
+button:hover{
+  color: #0088a9;
+}
+
+button.active{
+  background-color: gold;
+  color: black;
+}
+
+.rh{
+  text-align:left;
+  max-width: 400px;
+  padding : 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+h2{
+    text-align: center;
+    background-color: black;
+    color:rgb(255,215,0);
+    justify-content: flex-start;
+}
+
+.lh
+{
+  float: left;
+  /* width: 50%; */
+  /* padding: 10px; */
+  /* height: 300px; */
+  width: 520px;
+  padding : 40px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  margin-top: 160px;
+  margin-right: 40px;
+  margin-left: 120px;
+}
+
+.rh-1{
+  text-align:left;
+  width: 1020px;
+  padding : 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+
+  margin-left: 200px;
+  margin-top: 470px;
+  margin-bottom: 210px;
+}
+
+
+.helpbox{
+  float: left;
+  padding: 0;
+  padding : 40px;
+  width: 350px;
+  background-color: black;
+  border-right: 3px solid gold;
+  margin-top:
+
+}
+button.help1:hover{
+  background-color: gold;
+  color:black;
+}
+
+button.help2{
+    margin-left: 30px;
+}
+button.help2:hover{
+
+  background-color: gold;
+  color:black;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    justify-content: flex-end;
+    margin-left: 500px;
+}
+.helpbox1{
+  margin-top: 20px;
+
+  /* float: left; */
+  /* padding: 0; */
+  padding : 26px;
+  /* width: 1149px; */
+  background-color: black;
+  margin-left: 350px;
+  margin-top: 20px;
+  color: white;
+}
+/* a.below{
+  margin-top: 110px;
+} */
+/* .verti{
+
+  width: 2px;
+  height: 20px;
+  background-color: orange;
+  margin-left:250px;
+  border: 1px solid gold;  /* outer stroke */

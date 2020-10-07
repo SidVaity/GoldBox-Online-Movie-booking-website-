@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+
+*{
+  list-style:none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body{
+  background-color:#282828;
+}
+
+@media only screen and (max-width: 1268px) {
+    body{
+     max-width: 100%;
+    }
+    nav{
+      /* margin-left: 20px; */
+      /* max-width: 1000px; */
+    }
+
+    #botp{
+      font-size: 10px;
+      width: 1190px;
+    }
+
+    #posters{
+      /* margin: auto; */
+      margin-left: 380px;
+      /* max-width: 100%; */
+    }
+
+    #posters-1{
+      display: none;
+    }
+    #posters-2{
+  display: none;
+    }
+}
+
+
+
+
+nav{
+  background-color:#070708;
+  height: 80px;
+  padding: 25px;
+  width: 1498px;
+
+}
+
+li,a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  color:white;
+}
+
+
+
+#search-result{
+  /* display: none; */
+  border: none;
+  background-color: white;
+  /* float: right; */
+  margin-right: 80px;
+  position: absolute;
+  /* bottom: 20%; */
+  top: 105%;
+  left: 1155px;
+
+  width: 310px;
+  /* height: 100px; */
+  color: black;
+
+  z-index: 100;
+}
+
+#search-poster{
+  float: right;
+}
+
+
+.content-display{
+    text-align: left;
+    width: 310px;
+    float: right;
+    /* height: 100px; */
+    background-color: white;
+    color: black;
+}
+
+#textcol
+{
+  color: black;
+  text-align: left;
+}
+
+#textcol:hover{
+  color: blue;
+}
+
+/* .logo{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    border:none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    /* transition: 0.3s; */
+
+
+
+
+
+
+.top-right{
+  float: right;
+  padding: 0;
+}
+
+.top-left{
+  float: left;
+  padding: 0;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* .nav__links li:nth-child(1){
+  font-family: 'Recursive', sans-serif;
+  font-size: 20px;
+} */
+
+.nav__links li a {
+
+  color:white;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: white;
+}
+
+
+button {
+padding: 5px 15px;
+font-size: 16px;
+background-color:#070708;
+color:rgb(255,215,0);
+border:none;
+border-radius: 20px;
+cursor: pointer;
+/* transition: all 0.0s ease 0s; */
+}
+
+button:hover{
+  color: #0088a9;
+}
+
+button.active{
+  background-color: gold;
+  color: black;
+}
+
+.rh{
+  text-align:left;
+  max-width: 400px;
+  padding : 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+h2{
+    text-align: center;
+    background-color: black;
+    color:rgb(255,215,0);
+    justify-content: flex-start;
+}
+
+.lh
+{
+  float: left;
+  /* width: 50%; */
+  /* padding: 10px; */
+  /* height: 300px; */
+  width: 520px;
+  padding : 40px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  margin-top: 160px;
+  margin-right: 40px;
+  margin-left: 120px;
+}
+
+.rh-1{
+  text-align:left;
+  width: 1020px;
+  padding : 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+
+  margin-left: 200px;
+  margin-top: 470px;
+  margin-bottom: 210px;
+}
+
+
+.helpbox{
+  float: left;
+  padding: 0;
+  padding : 44px;
+  width: 350px;
+  background-color: black;
+  border-right: 3px solid gold;
+  /* margin-top: 20px; */
+
+}
+button.help1:hover{
+  background-color: gold;
+  color:black;
+}
+
+button.help2{
+    margin-left: 30px;
+}
+button.help2:hover{
+
+  background-color: gold;
+  color:black;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    justify-content: flex-end;
+    margin-left: 500px;
+}
+.helpbox1{
+  margin-top: 140px;
+
+  /* float: left; */
+  /* padding: 0; */
+  padding : 34px;
+  /* width: 1149px; */
+  background-color: black;
+  margin-left: 350px;
+
+  color: white;
+}
+
+
+
+/* a.below{
+  margin-top: 110px;
+} */
+/* .verti{
+
+  width: 2px;
+  height: 20px;
+  background-color: orange;
+  margin-left:250px;
+  border: 1px solid gold;  /* outer stroke */
+  #botp{
+    font-size: 9px;
+
+  }
+
+
+#infotab
+{
+  color: white;
+}

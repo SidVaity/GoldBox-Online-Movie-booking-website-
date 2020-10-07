@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+
+}
+
+body{
+    /* background-color: #24252A; */
+    /* background-image: url('loginback.jpg'); */
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: center; */
+    background-position: center;
+    /* background-color: #24252A; */
+    color: rgb(255,215,0);
+    margin-top: 10px;
+    /* background-size: cover; */
+
+
+}
+
+/* .container{
+  background-color: black;
+  /* width:70%; */
+  /* padding: 20px;
+  border-radius: 40px; */
+
+
+/* } */
+
+
+.regisform{
+  color: rgb(255,215,0);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  background-color: black;
+  width:300px;
+  margin-left: 30px;
+  padding: 20px 160px 40px 0px;
+  text-align: justify;
+
+  /* border-radius: 15px 15px 0px 0px; */
+}
+
+.main{
+  width: 1220px;
+  margin: auto;
+  /* margin-right: 500px; */
+
+  /* text-align: center; */
+}
+
+form{
+padding: 20px;
+margin-left: 100px;
+border-radius: 30px;
+background-color:rgba(0, 0, 0, 0.6);
+margin-top: 40px;
+/* box-shadow:  10px 15px black; */
+
+}
+
+.notreg{
+  margin-top: 50px;
+  margin-left: 340px;
+  color:black;
+}
+
+.Movie_name{
+ width: 200px;
+ padding: 15px;
+ margin: 2px 0 22px 0;
+ margin-left: 150px;
+ border: none;
+ border-radius: 10px;
+ background: #f1f1f1;
+}
+.Description{
+  /* width: 200px; */
+  padding: 15px;
+  margin: 2px 0 22px 0;
+  margin-left: 160px;
+  /* margin-bottom: 40px; */
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+
+
+
+.Yt_links{
+  width: 300px;
+  padding: 15px;
+  margin: 2px 0 22px 0;
+  margin-left: 90px;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+
+.img_name{
+
+    margin-left: 205px;
+}
+
+
+.p_id{
+  width: 200px;
+  padding: 15px;
+  margin: 2px 0 22px 0;
+  margin-left: 185px;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+.sub {
+padding: 19px 35px;
+font-size: 16px;
+margin-top: 40px;
+margin-left: 820px;
+background-color: rgb(255,215,0);
+border:none;
+border-radius: 10px;
+cursor: pointer;
+transition: all 0.0s ease 0s;
+}
+
+.sub:hover{
+ background-color: gray;
+ transition: all 0.3s ease 0s;
+}
+
+.l1,.l2{
+  margin-left: 20px;
+}
+
+.l4{
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}

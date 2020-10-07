@@ -1,0 +1,48 @@
+
+.container {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+ }
+ .c1 {
+    position: absolute;
+    top: 10%;
+
+ }
+
+  p{
+	  margin-left:27px;
+	  font-size:14px;
+  }
+.c2{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.check_box1 {
+    margin-left: 23px;
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+
+  }
+  .check_box1 + label{
+    /* background-color: black; */
+    background:url("seat1.png") no-repeat;
+    height: 30px;
+    width: 30px;
+    /* margin-bottom: 100px; */
+     display: inline-block;
+    /* right: 10px; */
+    position: absolute;
+      padding: 0 0 0 0px;
+  }
+  .check_box1:checked + label{
+      /* background-color: pink; */
+      background:url("selected.png") no-repeat;
+      height: 30px;
+      width: 30px;
+       display:inline-block;
+      padding: 0 0 0 0px;
+  }
